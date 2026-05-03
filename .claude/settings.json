@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(find:*)",
+      "Bash(done)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebSearch",
+      "mcp__plugin_redis-memory_redis-memory-mcp__kv_get",
+      "mcp__plugin_redis-memory_redis-memory-mcp__kv_set",
+      "mcp__plugin_redis-memory_redis-memory-mcp__kv_list",
+      "mcp__plugin_redis-memory_redis-memory-mcp__mem_save",
+      "mcp__plugin_redis-memory_redis-memory-mcp__mem_search",
+      "mcp__plugin_redis-memory_redis-memory-mcp__mem_list",
+      "mcp__plugin_mempalace_mempalace__mempalace_add_drawer",
+      "mcp__plugin_mempalace_mempalace__mempalace_kg_add"
+    ]
+  }
+}

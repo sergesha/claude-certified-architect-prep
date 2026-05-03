@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local Claude Code state (keep settings.local.json — it's the project allowlist)
+# Add anything machine-specific here
+
+# Personal scratch / WIP screenshots
+gaps/
+
+# Official Anthropic exam guide PDF — © Anthropic, PBC. Not bundled in
+# this repo; fetch your own copy from https://anthropic.skilljar.com/.
+Claude_Certified_Architect_Foundations_Certification_Exam_Guide.pdf
+*Exam_Guide*.pdf
+*exam-guide*.pdf
+
+# Environment / secrets
+.env
+.env.*
+
+# Node / Python artifacts
+node_modules/
+__pycache__/
+*.pyc
+
+# Logs / temporary
+*.log
+.tmp/
