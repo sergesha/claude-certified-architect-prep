@@ -63,7 +63,7 @@ Inside Claude Code, run:
 
 ```
 /plugin marketplace add sergesha/redis-memory-mcp
-/plugin install redis-memory-mcp
+/plugin install redis-memory
 ```
 
 Make sure Docker is running. The plugin's docker-compose stack (Redis Stack + embeddings + MCP server) handles everything else — see the plugin repo for env vars and troubleshooting if the stack doesn't come up automatically.
